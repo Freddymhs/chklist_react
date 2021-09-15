@@ -27,9 +27,5 @@ class Index extends React.Component {
   }
 }
 
-// ReactDOM.render(
-//   React.createElement(Index, { toWhat: "World" }, null),
-//   document.getElementById("root")
-// );
 
 export default Index;

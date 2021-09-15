@@ -44,7 +44,9 @@ class App extends React.Component {
           <div id="four">
             <LifeCycleMethods/>
           </div>
-          <div id="five">que es x</div>
+          <div id="five">
+            <StatesInReact/>
+          </div>
           <div id="six">que es x</div>
           <div id="seven">que es x</div>
           <div id="eight">que es x</div>
