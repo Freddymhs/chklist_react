@@ -3,7 +3,15 @@ import React from 'react';
 
 function Index() {
   return ( 
-    <p>some basic HOOKS <b>useState, useEffect, useContext</b> </p>
+    <fragment>
+      <p>some basic HOOKS <b>useState, useEffect, useContext</b> </p>
+      <p> useState, useEffect, useContext </p>      
+<ol>
+      <li>useState : permite modificar el objecto state u obtener su valor</li>
+      <li>useEffect : nos permite reaccionar al ciclo de vida de algun componente</li>
+      <li> usecontext : permite acceder a algun context api </li>
+    </ol>
+    </fragment>
    );
 }
  

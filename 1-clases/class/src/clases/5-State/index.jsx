@@ -15,7 +15,7 @@ function Index() {
 
       <p>todos podemos reaccionar a los estados y no modificarlos directamente gracias a useEfect</p>
       <p>todos podemos actualizar un estado gracias a useState</p>
-
+      <a src="https://codesandbox.io/s/cambiar-cauqluier-estado-renderiza-el-componente-9v9qq">ejemplo</a>
     </>
    );
 }
