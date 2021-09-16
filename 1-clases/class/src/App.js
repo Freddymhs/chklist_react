@@ -20,12 +20,13 @@ import liftingStateUp from "./clases/17-LiftingStateUp/index";
 import Fragments from "./clases/18-Fragments/index";
 import AdvancedHooks from "./clases/19-AdvancedHOOKS/index";
 
-
+// https://app.pluralsight.com/paths/skills/building-web-applications-with-react
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = { name: "Guiadev" };
   }
+
   render() {
     return (
       <div className="App">
