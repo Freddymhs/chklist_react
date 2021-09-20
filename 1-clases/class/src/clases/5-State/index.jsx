@@ -4,8 +4,11 @@ import React from 'react';
 function Index() {
   return ( 
     <>
-      <p>que e sun STATE en react</p>
+      <p>que es sun STATE en react</p>
       <p>todo componente tiene estado en react</p>
+      <p>state <b>es un objeto</b> del componente</p>
+      <p>el <b>estando cambia</b> y vuelve a <b>renderizar</b></p>
+      <p>existen bibliotecas para manejar estados</p>
 
       <p>anteriormente </p>
       <p>Estado de un componente debe prevalecer a lo largo de la vida, por lo tanto, debemos primero tener algún estado inicial, para ello se debe definir el Estado en el constructor de la clase del componente. Para definir un estado de cualquier Clase que podemos usar el formato de la muestra a continuación.</p>
@@ -15,6 +18,9 @@ function Index() {
 
       <p>todos podemos reaccionar a los estados y no modificarlos directamente gracias a useEfect</p>
       <p>todos podemos actualizar un estado gracias a useState</p>
+
+      <p>muy vinculado al ciclo de vida</p>
+
       <a src="https://codesandbox.io/s/cambiar-cauqluier-estado-renderiza-el-componente-9v9qq">ejemplo</a>
     </>
    );

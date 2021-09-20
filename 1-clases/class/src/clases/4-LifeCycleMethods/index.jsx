@@ -10,6 +10,7 @@ function Index() {
       <p>life Cycle son <b>Estados del componente</b></p>
       <p>principalmente son 3 estado </p>
       <ol>
+
         <li><b>Mounting</b> 
         <ul>
         <li><img src={didMount} width="100%"/></li>
@@ -27,13 +28,17 @@ function Index() {
          <ul>
         <li> <img src={willUnmount} width="100%"/></li>
         </ul>
-        
         </li>
+
       </ol>
 <br/>
       <p>
       tradicionalmente con clases se es mas Imperativo ya que agregamos el <b>RENDER</b> y el concepto de clase es diferente , este tiene constructor
       recibe props y siempre necesita el metodo render() cosa que aqui es reemplazado todo por el <b>useEffect y setSate</b>
+      </p>
+
+      <p>
+       las funciones y el useEffect = Difieren, pero puedes usarlas de manera similar. No son lo mismo, pero parecidas.
       </p>
 
     </fragment>

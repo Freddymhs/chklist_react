@@ -6,8 +6,8 @@ import VirtualDom from "./clases/2-virtualDom/index";
 import FunctionalComponents from "./clases/3-FunctionalComponent/index";
 import LifeCycleMethods from "./clases/4-LifeCycleMethods/index";
 import StatesInReact from "./clases/5-State/index";
-import PropsElements from "./clases/7-Props/index";
-import ListANDKeys from "./clases/8-List&Keys/index";
+import PropsElement from "./clases/7-Props/index";
+import ListAndKeys from "./clases/8-ListKeys/index";
 import PresentationalOrContainer from "./clases/9-Presentational-OR-ContainerComponents/index";
 import HOC from "./clases/10-HigherOrderComponents/index";
 import Composition from "./clases/11-Compositions/index";
@@ -48,13 +48,27 @@ class App extends React.Component {
           <div id="five">
             <StatesInReact/>
           </div>
-          <div id="six">que es x</div>
-          <div id="seven">que es x</div>
-          <div id="eight">que es x</div>
-          <div id="nine">que es x</div>
-          <div id="ten">que es x</div>
-          <div id="eleven">que es x</div>
-          <div id="twelve">que es x</div>
+          <div id="six">
+            <PropsElement/>
+          </div>
+          <div id="seven">
+            <ListAndKeys/>
+          </div>
+          <div id="eight">
+            <PresentationalOrContainer/>
+          </div>
+          <div id="nine">
+            <HOC/>
+          </div>
+          <div id="ten">
+            <Composition/>
+          </div>
+          <div id="eleven">
+            <ContextAPI/>
+          </div>
+          <div id="twelve">
+            <BasicHooks/>
+          </div>
           <div id="thirteen">que es x</div>
           <div id="fourteen">que es x</div>
           <div id="fifteen">que es x</div>

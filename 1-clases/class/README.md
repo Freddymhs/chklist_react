@@ -1,4 +1,26 @@
-# Getting Started with Create React App
+[x]JSX
+[x]VIRTUAL DOM
+[x]Functional Components
+[x]Class Components
+[.]Component LifeCycle Methods
+[.]State
+[.]Props
+[.]List && Keys
+[.]Presentational Container Components
+[.]Higher Order Components
+[]Composition
+[]Context API
+[]Basic Hooks (useState,useEfect,useContext)
+[]Event Handling
+[]Conditional Rendering
+[]Controlled Components
+[]Lifting State Up
+[]Fragments
+[]Other Hooks (useReducer, useCallback, useMemo, useRef)
+
+
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +89,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
