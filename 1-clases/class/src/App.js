@@ -69,9 +69,15 @@ class App extends React.Component {
           <div id="twelve">
             <BasicHooks/>
           </div>
-          <div id="thirteen">que es x</div>
-          <div id="fourteen">que es x</div>
-          <div id="fifteen">que es x</div>
+          <div id="thirteen">
+            <EventHandling/>
+          </div>
+          <div id="fourteen">
+            <ConditionalRender/>
+          </div>
+          <div id="fifteen">
+            <ControlledComponents/>
+          </div>
           <div id="sixteen">que es x</div>
           <div id="seventeen">que es x</div>
           <div id="eighteen">que es x</div>

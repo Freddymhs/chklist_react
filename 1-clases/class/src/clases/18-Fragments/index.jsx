@@ -3,7 +3,9 @@ import React from 'react';
 
 function Index() {
   return ( 
-    <p>when use FRAGMENTS</p>
+    <fragment>
+<p>when use FRAGMENTS, alawys that you need render one more component</p>
+    </fragment>
    );
 }
  

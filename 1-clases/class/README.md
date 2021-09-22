@@ -19,6 +19,16 @@
 []Other Hooks (useReducer, useCallback, useMemo, useRef)
 
 
+supertips <3 mios
+separar logica de PRESENTACION y CONTENEDOR de componentes
+usar HOCs  para agregar o limitar funcionalidades a algun componente
+todas las listas deben tener un key realista
+usar composicion de componente
+considerar la sanitisacion al usar useEffect
+http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf
+
+
+
 
 <!-- # Getting Started with Create React App
 

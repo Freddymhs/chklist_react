@@ -32,6 +32,8 @@ function Index() {
             <li>useEffect aprovenchan las CLOSURES ya que estan dentro del ambito de la funcion/componente</li>
             <li>para efectos sincronicos usar <b>useLayoutEffect</b></li>
             <li>con sanemiento = debemos usar useEfect + useEfect con el return para susbrirse() y desuscribirse()</li>
+            <li>useEfect desmontara y luego tratara de montar basado en sus arreglo de dependecias</li>
+            <li>si el componente esta desmontado e intentamos aplicar algun efecto tendremos un fallo</li>
 
           </ul>
         </li>
@@ -46,16 +48,11 @@ function Index() {
         </li>
       </ol>
 
-      <ol>
-        <li>
-          useState : permite modificar el objecto state u obtener su valor
-        </li>
-        <li>
-          useEffect : nos permite reaccionar al ciclo de vida de algun
-          componente
-        </li>
+
+
+
         <li> usecontext : permite acceder a algun context api </li>
-      </ol>
+    
     </fragment>
   );
 }
