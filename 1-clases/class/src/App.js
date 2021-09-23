@@ -16,7 +16,7 @@ import BasicHooks from "./clases/13-BasicHOOKS/index";
 import EventHandling from "./clases/14-EventHandling/index";
 import ConditionalRender from "./clases/15-ConditionalRendering/index";
 import ControlledComponents from "./clases/16-ControlledComponents/index";
-import liftingStateUp from "./clases/17-LiftingStateUp/index";
+import LiftingStateUp from "./clases/17-LiftingStateUp/index";
 import Fragments from "./clases/18-Fragments/index";
 import AdvancedHooks from "./clases/19-AdvancedHOOKS/index";
 
@@ -34,54 +34,61 @@ class App extends React.Component {
         {/* <h1>Hola, {this.state.name}!</h1> */}
         <div id="container">
           <div id="one">
-            <NoJsx toWhat="Mundo" />
+            <NoJsx toWhat="Mundo" />{/*  */}
           </div>
           <div id="two">
-            <VirtualDom />
+            <VirtualDom />  {/* explicacion */}
           </div>
           <div id="three">
-            <FunctionalComponents/>
+            <FunctionalComponents/> {/*  */}
           </div>
           <div id="four">
-            <LifeCycleMethods/>
+            <LifeCycleMethods/> {/*  */}
           </div>
           <div id="five">
-            <StatesInReact/>
+            <StatesInReact/> {/*  */}
           </div>
           <div id="six">
-            <PropsElement/>
+            <PropsElement/> {/*  */}
           </div>
           <div id="seven">
-            <ListAndKeys/>
+            <ListAndKeys/> {/*  */}
           </div>
           <div id="eight">
-            <PresentationalOrContainer/>
+            <PresentationalOrContainer/> {/*  */}
           </div>
           <div id="nine">
-            <HOC/>
+            <HOC/> {/*  */}
           </div>
           <div id="ten">
-            <Composition/>
+            <Composition/> {/*  */}
           </div>
           <div id="eleven">
-            <ContextAPI/>
+            <ContextAPI/> {/*  */}
           </div>
           <div id="twelve">
-            <BasicHooks/>
+            <BasicHooks/> {/*  */}
           </div>
           <div id="thirteen">
-            <EventHandling/>
+            <EventHandling/> {/*  */}
           </div>
           <div id="fourteen">
-            <ConditionalRender/>
+            <ConditionalRender/> {/*  */}
           </div>
           <div id="fifteen">
-            <ControlledComponents/>
+            <ControlledComponents/> {/*  */}
           </div>
-          <div id="sixteen">que es x</div>
-          <div id="seventeen">que es x</div>
-          <div id="eighteen">que es x</div>
-          <div id="nineteen">que es x</div>
+          <div id="sixteen">
+            <LiftingStateUp/>
+          </div>
+          <div id="seventeen">
+            <Fragments/>
+          </div>
+          <div id="eighteen">
+            <AdvancedHooks/>
+          </div>
+          
+          {/* <div id="nineteen">que es x</div> */}
         </div>
       </div>
     );

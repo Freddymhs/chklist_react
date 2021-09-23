@@ -19,7 +19,7 @@ function Index() {
 </li>
 
     
-<input type="text" defaultValue="foo" ref={inputRef} />
+
 
 
     </ul>

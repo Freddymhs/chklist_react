@@ -24,6 +24,8 @@ function Index() {
         <li>
           useEffect
           <ul>
+          <li> peticiones de datos , suscripciones , eventos del dom son buenos ejemplos para el "EFECTO"</li>
+          {/*  */}
             <li>peticiones de datos , suscripciones , eventos del dom son buenos ejemplos para el "EFECTO"</li>
             <li>useEffect = [componentDidMount,componentDidUpdate,componentWillUnmount]</li>
             <li>se monto, se actualizo ,se va a desmontar</li>
