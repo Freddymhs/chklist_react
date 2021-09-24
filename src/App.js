@@ -1,6 +1,5 @@
 import "./App.css";
 import React from "react";
-
 import NoJsx from "./clases/1-jsx/index";
 import VirtualDom from "./clases/2-virtualDom/index";
 import FunctionalComponents from "./clases/3-FunctionalComponent/index";
@@ -30,7 +29,8 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>Ejemplos compuestos solo de COMPONENTES</h1>
+      <h1>temas imporantes a comprender</h1>
+      <a src="https://codepen.io/collection/KpKeVv">CODEPEN</a>
         {/* <h1>Hola, {this.state.name}!</h1> */}
         <div id="container">
           <div id="one">
