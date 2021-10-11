@@ -87,8 +87,6 @@ class App extends React.Component {
           <div id="eighteen">
             <AdvancedHooks/>
           </div>
-          
-          {/* <div id="nineteen">que es x</div> */}
         </div>
       </div>
     );
